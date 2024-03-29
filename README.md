@@ -27,3 +27,23 @@ Banco de Dados: MySQL
 
 ---------------------------------------------------
 ## DUMP:
+
+![dump1](https://github.com/Klaiancdrosa/Projeto_Aluguel/assets/103066223/99b5d309-fc74-4b6a-ba99-ca53833d1048)
+
+![dump2](https://github.com/Klaiancdrosa/Projeto_Aluguel/assets/103066223/3c3f5d1b-481b-469e-996b-8511d2e66dad)
+
+![dump3](https://github.com/Klaiancdrosa/Projeto_Aluguel/assets/103066223/f61fce7f-91d0-468f-ab39-c59293ef9642)
+
+![dump4](https://github.com/Klaiancdrosa/Projeto_Aluguel/assets/103066223/7810edd3-6d0e-4b8f-9058-96cf5d7a7951)
+
+![dump5](https://github.com/Klaiancdrosa/Projeto_Aluguel/assets/103066223/8eb5ebe7-0cbc-4ff0-8e44-e999211590ef)
+
+---------------------------------------------------
+## IDE:
+
+Visual Studio Code
+
+---------------------------------------------------
+# Autor Principal:
+
+https://github.com/Klaiancdrosa
