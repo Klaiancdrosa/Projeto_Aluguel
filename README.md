@@ -19,4 +19,11 @@ Desenvolvido para conter dados de usuários e aluguéis.
 ---------------------------------------------------
 ## O Que foi utilizado:
 
+Backend: PHP
 
+Frontend: HTML5, CSS e Tailwind CSS
+
+Banco de Dados: MySQL
+
+---------------------------------------------------
+## DUMP:
