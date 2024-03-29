@@ -49,6 +49,6 @@ Visual Studio Code
 https://github.com/Klaiancdrosa
 
 ---------------------------------------------------
-## Pseudocooperador:
+## Pseudocooperador/Auxiliar do Assistente do Ajudante:
 
 https://github.com/YannickRambo
