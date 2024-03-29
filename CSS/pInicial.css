@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(31 41 55);
+    opacity: 1;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    width: 380px;
+}
+
+.formulario h1 {
+    padding-bottom: 1em;
+    color: white;
+}
+
+.input-label {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 1em;
+    width: 95%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;  
+}
+
+.btn:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.formulario a {
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+.formulario a:hover{
+    color: dodgerblue;
+} 
+.btn {
+    color: #fff;
+    background-color: #3b82f6;
+    border-color: transparent;
+    transition-property: background-color, border-color, color;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 500;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    padding: 0.625rem 1.25rem;
+    text-align: center;
+    cursor: pointer;
+    padding: 1em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 100%;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: .3s;
+    letter-spacing: 1px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #2563eb;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+}
+
+.btn.dark {
+    background-color: #2563eb;
+}
+
+.btn.dark:hover,
+.btn.dark:focus {
+    background-color: #1e40af;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.btn.dark:focus {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+

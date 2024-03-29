@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* Estilos globais */
+* {
+    margin: 0;
+    padding-top: 3px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos para o corpo da página */
+body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(31 41 55);
+    opacity: 1;
+    position: relative;
+}
+
+/* Estilos para o título */
+.container-titulo {
+    text-align: center;
+    padding: 0;
+}
+
+.container-titulo h1 {
+    color: white;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    line-height: 50px;
+}
+
+/* Estilos para as ações */
+.container-acoes {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.container-acoes a {
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+.container-acoes a:hover {
+    color: dodgerblue;
+}
+
+/* Estilos para os links na seção de links */
+.container-links {
+    display: inline-table; /* Define a tabela como inline-table */
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+.container-links a {
+    margin: 0.5em;
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+/* Estilos para as tabelas */
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+/* Estilos para as células de cabeçalho */
+.tabela th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilos para as células de dados */
+.tabela td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Estilos para as células de dados alternadas (zebradas) */
+.tabela tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilos para as células quando o mouse está sobre elas */
+.tabela tr:hover td {
+    background-color: #f2f2f2;
+}
+
+.link-cadastro {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.link-cadastro:hover {
+    background-color: royalblue;
+}
+
+.link-sair {
+    position: absolute; /* Adiciona posicionamento absoluto */
+    top: 10px; /* Define a distância do topo */
+    right: 20px; /* Define a distância da direita */
+    padding: 10px 20px;
+    background-color: red; /* Altera a cor para vermelho */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.link-sair:hover {
+    background-color: darkred; /* Altera a cor ao passar o mouse */
+}
+
+.link-tabela {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px; /* Adiciona um espaçamento entre os botões */
+}
+
+.link-tabela:hover {
+    background-color: royalblue;
+}
+
+/* Estilos para os links das tabelas ativos */
+.link-tabelaativo[href="?tabela=tabela1"].ativo,
+.link-tabela[href="?tabela=tabela2"].ativo,
+.link-tabela[href="?tabela=tabela3"].ativo,
+.link-tabela[href="?tabela=tabela4"].ativo {
+    background-color: royalblue; /* Altera a cor do botão ativo */
+}
+
+.link-tabelaativo[href="?tabela=tabela1"].ativo:hover,
+.link-tabela[href="?tabela=tabela2"].ativo:hover,
+.link-tabela[href="?tabela=tabela3"].ativo:hover,
+.link-tabela[href="?tabela=tabela4"].ativo:hover {
+    background-color: dodgerblue; /* Altera a cor ao passar o mouse no botão ativo */
+}
+
+.mensagem-aviso {
+    color: #666; /* Cor do texto */
+    font-style: italic; /* Estilo de fonte itálico */
+    margin-top: 10px; /* Margem superior para separá-la do conteúdo acima */
+}
