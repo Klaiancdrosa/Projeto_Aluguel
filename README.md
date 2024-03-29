@@ -44,6 +44,11 @@ Banco de Dados: MySQL
 Visual Studio Code
 
 ---------------------------------------------------
-# Autor Principal:
+## Autor Principal:
 
 https://github.com/Klaiancdrosa
+
+---------------------------------------------------
+## Pseudocooperador:
+
+https://github.com/YannickRambo
